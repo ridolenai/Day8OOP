@@ -9,6 +9,9 @@ class AlarmClock:
         self.alarmOn = False
         self.alarmTime = ('1030')
 
+    def display_current:
+
+
     def change_time(self):
         new_time = (input ('What is the current time: '))
         print (new_time)
@@ -20,10 +23,10 @@ class AlarmClock:
             noisy_time = (input ('What time would you like to set the alarm? '))
             print ('Your alarm is set for: ')
             print (noisy_time)
-
         else:
             alarmOn = False
-            print ('There has been no change made to the alarm.')
+            print ('Your alarm is off.')
+
             
         
     
