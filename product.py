@@ -17,4 +17,8 @@ class Product:
             price.append(new_price)
             new_category = input ('Type the category of the item you added to your cart: ')
             category.append(new_category)
-            interrogative = input ('Would you like to add something to your cart? 1 for yes and 2 for no ')
+            interrogative = input ('Would you like to add anything else to your cart? 1 for yes and 2 for no ')
+        print (name)
+        print (price)
+        print (category)
+        
